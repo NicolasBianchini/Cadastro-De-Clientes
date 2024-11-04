@@ -1,0 +1,52 @@
+/*  -------- INDEX --------*/
+
+#index {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h2-index {
+    padding-left: 44%;
+}
+
+#formulario {
+    flex-direction: column;
+    display: flex;
+
+    padding-left: 42.5%;
+    width: 30vh;
+}
+
+#formulario input {
+    margin-bottom: 1vh;
+    border-radius: 15px;
+
+    height: 25px;
+
+    padding-left: 10px;
+
+    border: 1px solid rgba(97, 20, 199, 0.699);
+}
+
+/*  -------- LISTA CADASTRADOS --------*/
+
+#cadastro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lista {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+ol li {
+    padding-bottom: 15px;
+}
+
+#quebra-linha-01 {
+    position: absolute;
+    left: 100;
+    width: 15.5vw;
+
+    border: 0;
+    border-top: 1px solid rgba(97, 20, 199, 0.699);
+}

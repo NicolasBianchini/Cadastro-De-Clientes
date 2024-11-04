@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Lista de Clientes</title>
+</head>
+<body id="cadastro">
+    <h2>Clientes Cadastrados:</h2>
+    <ol >
+        <% lista.forEach(function(user){ %>
+            <li id="lista"><%= user.nome %> <%= user.sobrenome %> <br>
+                Numero: <%= `(${user.numero.substring(0, 2)}) ${user.numero.substring(2, 7)}-${user.numero.substring(7)}` %> <br>
+                Empresa: <%= user.empresa %> <br>
+                Registrado em: <%= new Date(user.data_registro).toLocaleDateString() %> <hr id="quebra-linha-01"></li>
+        <% }) %>
+    </ol>
+</body>
+</html>
